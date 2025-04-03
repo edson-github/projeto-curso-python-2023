@@ -42,7 +42,3 @@ filme: Movie = json.loads(string_json)
 
 json_string = json.dumps(filme, ensure_ascii=False, indent=2)
 print(json_string)
-
-print(filme['title'])
-print(filme['characters'][0])
-print(filme['year'] + 10)
